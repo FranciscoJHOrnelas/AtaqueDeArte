@@ -2,8 +2,11 @@ Ataque de Arte es un juego de plataformas 2D, el juego presenta un único nivel.
 
 -Controles:
   Mover a la izquierda: A
+  
   Mover a la derecha: D
+  
   Saltar: W
+  
   Realizar ataque: Espacio
 
 -Objetivo principal:
