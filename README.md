@@ -14,10 +14,17 @@ Ataque de Arte es un juego de plataformas 2D, el juego presenta un único nivel.
   
 -Objetivo secundario:
   -Desbloquear los 7 logros ocultos
+    
     Clean Map!
+    
     Low%!
+    
     Flawless!
+    
     OneHit!
+    
     The Flash!
+    
     Pacifist!
+    
     The Doom Slayer!
