@@ -354,17 +354,18 @@ void SDLApp::on_frameupdate(double dt)
 
     int comp = platspawn->get_plat_posibles().size();
     /*
-    std::string cpm = " " + std::to_string(comp*100/198) + "%"; 
-    RenderTexto::get().render_texto(
-        get().render,WIDTH/2-190,0,
-        cpm,
-        150,50,{255-(int)comp*1.275,(int)comp*1.275,0,255}
-    );
+    
     RenderTexto::get().render_texto(get().render, 500, 0, "Tiempo: " + std::to_string(contador), 120, 30, SDL_Color{0,0,0,255});
     RenderTexto::get().render_texto(get().render, 500, 60, "Kills: " + std::to_string(player->kills), 120, 30, SDL_Color{0,0,0,255});
     */
     //Achievements
     if(player->get_strEstado()=="VICTORIA") {
+        std::string cpm = " " + std::to_string(comp*100/198) + "%"; 
+        RenderTexto::get().render_texto(
+        get().render,WIDTH/2-190,0,
+        cpm,
+        150,50,{255-(int)comp*1.275,(int)comp*1.275,0,255}
+        );
         if(comp==198) {
             std::string hundred = "Clean Map!";
             RenderTexto::get().render_texto(
