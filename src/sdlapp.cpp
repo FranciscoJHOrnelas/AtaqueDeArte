@@ -370,15 +370,15 @@ void SDLApp::on_frameupdate(double dt)
             RenderTexto::get().render_texto(
             get().render,50,60,
             hundred,
-            150,50,{0,0,0,255}
+            150,50,{100, 250, 50, 255}
             );
         }
         if(comp<=40) {
-            std::string hundred = "Any%!";
+            std::string low = "Low%!";
             RenderTexto::get().render_texto(
             get().render,50,60,
-            hundred,
-            150,50,{0,0,0,255}
+            low,
+            150,50,{100, 250, 50, 255}
             );
         }
         if(player->get_hp()==5) {
@@ -386,7 +386,7 @@ void SDLApp::on_frameupdate(double dt)
             RenderTexto::get().render_texto(
             get().render,50,120,
             fullhp,
-            150,50,{0,0,0,255}
+            150,50,{100, 250, 50, 255}
             );
         }
         if(player->get_hp()==1) {
@@ -394,7 +394,7 @@ void SDLApp::on_frameupdate(double dt)
             RenderTexto::get().render_texto(
             get().render,50,120,
             oneHit,
-            150,50,{0,0,0,255}
+            150,50,{100, 250, 50, 255}
             );
         }
         if(contador<=40) {
@@ -402,7 +402,7 @@ void SDLApp::on_frameupdate(double dt)
             RenderTexto::get().render_texto(
             get().render,50,180,
             theFlash,
-            150,50,{0,0,0,255}
+            150,50,{100, 250, 50, 255}
             );
         }
         if(player->kills==0) {
@@ -410,7 +410,7 @@ void SDLApp::on_frameupdate(double dt)
             RenderTexto::get().render_texto(
             get().render,50,240,
             pacifist,
-            150,50,{0,0,0,255}
+            150,50,{100, 250, 50, 255}
             );
         }
         if(player->kills>=50) {
@@ -418,7 +418,7 @@ void SDLApp::on_frameupdate(double dt)
             RenderTexto::get().render_texto(
             get().render,50,240,
             theDoomSlayer,
-            150,50,{0,0,0,255}
+            150,50,{100, 250, 50, 255}
             );
         }
     }
