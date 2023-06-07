@@ -1,0 +1,3 @@
+Background.png
+	size: 4096x512
+
